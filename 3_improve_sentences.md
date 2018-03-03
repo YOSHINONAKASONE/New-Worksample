@@ -19,7 +19,7 @@
 <span>　　　　　　　　　　　　　</span>nameとして指定されている値は変更できる。    
 `def initialize(name)`　　　⇒newとしてインスタンスを呼び出し、それの後に値を渡すと    
 <span>　　　　　　　　　　　　　</span>このメソッドの情報がその値に更新される。    
-`self.name = name`　　　       　⇒selfオブジェクトとnameの値をここで紐づけます。　　　　
+`self.name = name`　　　       　⇒selfオブジェクトとnameの値をここで紐づけます。   
 <span>　　　　　　　　　　　　　</span>selfは呼び出したインスタンス自身なので、
 <span>　　　　　　　　　　　　　</span>つまり下記のa_schoolやb_schoolとイコールです。    
 `end`    

@@ -25,9 +25,9 @@
 `end`    
 `end`    
 `a_school = School.new("A学校")`    
-`puts(**a_school**.name)`     
+`puts(a_school.name)`     
 `b_school = School.new("B学校")`    
-`puts(**b_school**.name)`    
+`puts(b_school.name)`    
 **このコードで出力されるのは**   
 A学校   
 B学校

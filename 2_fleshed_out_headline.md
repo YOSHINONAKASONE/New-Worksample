@@ -24,8 +24,10 @@ self.color = color
 end
 end
 
-emionepiece=Onepiece.new(“color”)
-
+`ai_school = School.new("A学校")`    
+`puts(a_school.name)`     
+`b_school = School.new("B学校")`    
+`puts(b_school.name)`    
 ### 重要な3原則
 【**継承**】【**カプセル化**】【**ポリモーフィズム**】    
 オブジェクト指向設計はこの三つのルール(考え方)が守られてこそ実現する手法です。上記の**どんな手法**？の説明文はこの三つの要素が含まれています。    

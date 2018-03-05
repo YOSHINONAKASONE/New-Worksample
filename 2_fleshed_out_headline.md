@@ -18,9 +18,9 @@
 ※オブジェクト指向の「オブジェクト」とは、データと処理が一まとまりになったものを指します。つまり、【クラス】も【インスタンス】もデータと処理を持ち合わせたものなので、両者とも「オブジェクト」と言えます。
 #### !下記のコードを見てみましょう。    
 `class Onepiece`　　　　　　　⇒「Onepiece」という名前でクラスを設定します。    
-`attr_accessor :color`          )    
-`def initialize(color)`     )⇒情報更新できるような設定。     
-`self.color = color`          )    
+`attr_accessor :color`)    
+`def initialize(color)`)⇒情報更新できるような設定。     
+`self.color = color`)    
 `end`    
 `end`    
 ここまでがオブジェクト指向な設計で書いたクラスです。    

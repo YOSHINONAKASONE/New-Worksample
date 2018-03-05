@@ -18,11 +18,11 @@
 ※オブジェクト指向の「オブジェクト」とは、データと処理が一まとまりになったものを指します。つまり、【クラス】も【インスタンス】もデータと処理を持ち合わせたものなので、両者とも「オブジェクト」と言えます。
 #### !下記のコードを見てみましょう。    
 `class Onepiece`　　　　　　　⇒「Onepiece」という名前でクラスを設定します。    
-`attr_accessor :color`<div> ... </div>)    
-`def initialize(color)`<div> ... </div>)⇒情報更新できるような設定。     
-`self.color = color`<div> ... </div>)    
-`end`    
-`end`    
+`attr_accessor :color`　　　　)    　
+`def initialize(color)`　 　　)⇒情報更新できるような設定。    　 
+`self.color = color`　　　　　)    　
+`end`    　
+`end`    
 ここまでがオブジェクト指向な設計で書いたクラスです。    
 では、この設計図を使って様々なインスタンスオブジェクトを作成してみます。    
 `erika_onepiece = Onepiece.new("レッド")`　　　⇒「Onepiece」という設計図を使い「erika_onepiece」というインスタンスオブジェクトを作成。

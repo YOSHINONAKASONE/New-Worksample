@@ -25,8 +25,9 @@
 `end`    
 ここまでがオブジェクト指向な設計で書いたクラスです。    
 では、この設計図を使って様々なインスタンスオブジェクトを作成してみます。    
-`erika_onepiece = Onepiece.new("レッド")`⇒「Onepiece」という設計図を使い「erika_onepiece」というインスタンスを作成。
-<div> ... </div>`puts(erika_onepiece.color)`                  　このインスタンスでは「レッド」と指定するだけで上記のクラスに情報が埋め込まれる。    
+`erika_onepiece = Onepiece.new("レッド")`⇒「Onepiece」という設計図を使い「erika_onepiece」という
+<div> ... </div>　　　　　　　　　　　　　　　インスタンスオブジェクトを作成。
+`puts(erika_onepiece.color)`                  　このインスタンスでは「レッド」と指定するだけで上記のクラスに情報が埋め込まれる。    
 `naoko_onepiece = Onepiece.new("グリーン")`⇒「Onepiece」という設計図を使い.今度は「naoko_onepiece」というインスタンスオブジェクトを作成。  
 <div> ... </div>`puts(naoko_onepiece.color)`   
 ### 重要な3原則

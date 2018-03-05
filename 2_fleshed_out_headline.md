@@ -26,9 +26,10 @@
 ここまでがオブジェクト指向な設計で書いたクラスです。    
 では、この設計図を使って様々なインスタンスオブジェクトを作成してみます。    
 `erika_onepiece = Onepiece.new("レッド")`⇒「Onepiece」という設計図を使い「erika_onepiece」という    
-<span>　　　　　　　　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。このインスタンスで         `puts(erika_onepiece.color)`　　　　　　　「レッド」と指定するだけで上記のクラスに情報が埋め込まれる。<div>  </div>    
-`naoko_onepiece = Onepiece.new("グリーン")`⇒「Onepiece」という設計図を使い.今度は「naoko_onepiece」という<span>　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。  
-`puts(naoko_onepiece.color)`   
+<span>　　　　　　　　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。このインスタンスで         `puts(erika_onepiece.color)`　　　　　　　「レッド」と指定するだけで上記のクラスに情報が埋め込まれる。<div>  </div>    
+`erika_onepiece = Onepiece.new("レッド")`⇒「Onepiece」という設計図を使い「erika_onepiece」という    
+<span>　　　　　　　　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。このインスタンスで         `puts(erika_onepiece.color)`　　　　　　　「レッド」と指定するだけで上記のクラスに情報が埋め込まれる。<div>  </div>
+
 ### 重要な3原則
 【**継承**】【**カプセル化**】【**ポリモーフィズム**】    
 オブジェクト指向設計はこの三つのルール(考え方)が守られてこそ実現する手法です。上記の**どんな手法**？の説明文はこの三つの要素が含まれています。    

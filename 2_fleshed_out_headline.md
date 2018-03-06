@@ -28,9 +28,11 @@
 では、この設計図を使って様々なインスタンスオブジェクトを作成してみます。    
 `erika_onepiece = Onepiece.new("レッド")`    
 `puts(erika_onepiece.color)`    
+「Onepiece」という設計図を使い「erika_onepiece」というインスタンスオブジェクトを作成し、レッドという情報を埋め込む。    
 結果：**レッド**と出力される。    
-`naoko_onepiece = Onepiece.new("ブルー")`⇒今度は「Onepiece」という設計図を使い「naoko_onepiece」という                                <span>　　　　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。このインスタンスで    
-`puts(naoko_onepiece.color)`　　　　　　「ブルー」と指定するだけで上記のクラスに情報が埋め込まれる。    
+`naoko_onepiece = Onepiece.new("ブルー")`    
+`puts(naoko_onepiece.color)`     
+「Onepiece」という設計図を使い「naoko_onepiece」というインスタンスオブジェクトを作成し、ブルーという情報を埋め込む。    
 結果：**ブルー**と出力される。    
 **※一つのクラスでいくつものインスタンスを作成できる。様々なクラスを組み合わせればもっとバリエーションに富んだものが作成できる。**
 ### 重要な3原則

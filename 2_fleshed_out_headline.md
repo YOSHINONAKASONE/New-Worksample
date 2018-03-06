@@ -17,16 +17,17 @@
 実際に縫製し出来上がったワンピース＝**インスタンスオブジェクト**    
 ※オブジェクト指向の「オブジェクト」とは、データと処理が一まとまりになったものを指します。つまり、【クラス】も【インスタンス】もデータと処理を持ち合わせたものなので、両者とも「オブジェクト」と言えます。
 #### !下記のコードを見てみましょう。    
-`class Onepiece`　　　　　　　⇒「Onepiece」という名前でクラスを設定します。    
-`attr_accessor :color`　　　　)    
-`def initialize(color)`　  　　)⇒情報更新できるような設定。    
-`self.color = color`　　　　　)    
+`class Onepiece`    
+`attr_accessor :color`   
+`def initialize(color)`    
+`self.color = color`   
 `end`    
 `end`    
-ここまでがオブジェクト指向な設計で書いたクラスです。    
+ここまでがオブジェクト指向な設計で書いた「Onepiece」という名前のクラスです。    
+「color」の部分を変更できるようなコード設定をします。    
 では、この設計図を使って様々なインスタンスオブジェクトを作成してみます。    
-`erika_onepiece = Onepiece.new("レッド")`⇒「Onepiece」という設計図を使い「erika_onepiece」という    
-<span>　　　　　　　　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。このインスタンスで         `puts(erika_onepiece.color)`　　　　　　　「レッド」と指定するだけで上記のクラスに情報が埋め込まれる。    
+`erika_onepiece = Onepiece.new("レッド")`    
+`puts(erika_onepiece.color)`    
 結果：**レッド**と出力される。    
 `naoko_onepiece = Onepiece.new("ブルー")`⇒今度は「Onepiece」という設計図を使い「naoko_onepiece」という                                <span>　　　　　　　　　　　　　　　　</span>インスタンスオブジェクトを作成。このインスタンスで    
 `puts(naoko_onepiece.color)`　　　　　　「ブルー」と指定するだけで上記のクラスに情報が埋め込まれる。    

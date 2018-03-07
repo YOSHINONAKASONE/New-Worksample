@@ -17,12 +17,16 @@
 実際に縫製し出来上がったワンピース＝**インスタンスオブジェクト**    
 ※オブジェクト指向の「オブジェクト」とは、データと処理が一まとまりになったものを指します。つまり、【クラス】も【インスタンス】もデータと処理を持ち合わせたものなので、両者とも「オブジェクト」と言えます。
 #### !下記のコードを見てみましょう。    
-`class Onepiece`    
+class Hoge
+  def fuga
+`class Onepiece`    
 `attr_accessor :color`   
 `def initialize(color)`    
-`self.color = color`   
+`self.color= color`   
 `end`    
 `end`    
+ end
+end
 ここまでがオブジェクト指向な設計で書いた「Onepiece」という名前のクラスです。    
 「color」の部分を変更できるようなコード設定をします。    
 では、この設計図を使って様々なインスタンスオブジェクトを作成してみます。    
